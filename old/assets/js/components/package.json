@@ -1,0 +1,6 @@
+{
+  "name": "demo",
+  "scripts": {
+    "tovsolver": "tovsolver.js"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "basics": {
+    "name": "Isaac Legred",
+    "email": "ilegred2 at illinois dot edu",
+    "phone": "",
+    "website": "https://isaaclegred.github.io",
+    "summary": "Currently a postdoctoral researcher at the University of Illinois at Urbana-Champaign, working on neutron star astrophysics and gravitational-wave data analysis.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Earth",
+      "countryCode": "US",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "",
+        "url": "http://orcid.org/yourorcidurl"
+      },
+      {
+        "network": "GitHub",
+        "username": "isaaclegred",
+        "url": "https://github.com/isaaclegred"
+      }
+    ]
+  },
+  "work": [],
+  "education": [
+    {
+      "institution": "Caltech",
+      "area": "Ph.D in Physics",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2025",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Caltech",
+      "area": "M.S. in Physics",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2024",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Cornell University",
+      "area": "B.A. in Physics",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2020",
+      "gpa": null,
+      "courses": []
+    }
+  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "publications": [
+    {
+      "name": "Implicit correlations within phenomenological parametric models of the neutron star equation of state",
+      "publisher": "Physical Review D",
+      "releaseDate": "2022-03-29",
+      "website": "https://doi.org/10.1103/PhysRevD.105.043016",
+      "summary": "Parametric models impose hidden correlations across density scales in neutron star EOS inference."
+    },
+    {
+      "name": "Assessing equation of state-independent relations for neutron stars with nonparametric models",
+      "publisher": "Physical Review D",
+      "releaseDate": "2024-02-12",
+      "website": "https://doi.org/10.1103/PhysRevD.109.023020",
+      "summary": "Re-evaluates universal NS relations (e.g. I-Love-Q) using flexible Gaussian-process EOS models."
+    },
+    {
+      "name": "Simulating neutron stars with a flexible enthalpy-based equation of state parametrization in SpECTRE",
+      "publisher": "Physical Review D",
+      "releaseDate": "2023-01-31",
+      "website": "https://doi.org/10.1103/PhysRevD.107.123017",
+      "summary": "Introduces an enthalpy-based EOS parametrization implemented in SpECTRE simulations of neutron stars."
+    },
+    {
+      "name": "Phase transition phenomenology with nonparametric representations of the neutron star equation of state",
+      "publisher": "Physical Review D",
+      "releaseDate": "2023-05-12",
+      "website": "https://doi.org/10.1103/PhysRevD.108.043013",
+      "summary": "Explores potential phase-transition behavior in dense matter with nonparametric EOS models."
+    },
+    {
+      "name": "Using equation of state constraints to classify low-mass compact binary mergers",
+      "publisher": "Physical Review D",
+      "releaseDate": "2024-03-12",
+      "website": "https://doi.org/10.1103/PhysRevD.xyz",
+      "summary": "Classifies whether low-mass merger components are NS or BH using tidal/ EOS inference."
+    },
+    {
+      "name": "Nonlinear Alfvén-wave dynamics and premerger emission from crustal oscillations in neutron star mergers",
+      "publisher": "The Astrophysical Journal Letters",
+      "releaseDate": "2024-07-24",
+      "website": "https://doi.org/10.3847/2041-8213/ad785c",
+      "summary": "Simulates Alfvén waves from tidal excitations, predicting electromagnetic precursors before NS mergers."
+    },
+    {
+      "name": "The interplay of astrophysics and nuclear physics in determining the properties of neutron stars",
+      "publisher": "Physical Review D",
+      "releaseDate": "2025-01-10",
+      "website": "https://doi.org/10.1103/PhysRevD.xyz",
+      "summary": "Joint inference of EOS and population differences between Galactic and GW observed neutron stars."
+    },
+    {
+      "name": "Nonparametric extensions of nuclear equations of state: probing the breakdown scale of relativistic mean-field theory",
+      "publisher": "arXiv",
+      "releaseDate": "2025-05-12",
+      "website": "https://arxiv.org/abs/2505.07677",
+      "summary": "Hybrid GP + relativistic mean-field hybrid EOS models to study breakdown scales via future observations."
+    },
+    {
+      "name": "Unified nonparametric equation-of-state inference from the neutron-star crust to perturbative-QCD densities",
+      "publisher": "arXiv",
+      "releaseDate": "2025-05-19",
+      "website": "https://arxiv.org/abs/2505.13691",
+      "summary": "Integrates pQCD constraints into a GP-based EOS extending from crust through ultra-high densities."
+    },
+    {
+      "name": "Inferring the neutron star equation of state with nuclear-physics informed semiparametric models",
+      "publisher": "arXiv",
+      "releaseDate": "2025-07-03",
+      "website": "https://arxiv.org/abs/2507.03232",
+      "summary": "Combines nuclear-physics meta-model at low density with GP at high density to infer NS EOS from multi-messenger data."
+    },
+    {
+      "name": "Neutron Stars: Robust Constraints on Dense Matter from Astrophysics",
+      "publisher": "Ph.D. Dissertation, California Institute of Technology",
+      "releaseDate": "2025-05-23",
+      "website": "https://resolver.caltech.edu/CaltechTHESIS:06022025-165440282",
+      "summary": "Ph.D. thesis summarizing Legred’s work using electromagnetic and gravitational-wave observations to constrain dense-matter EOS using nonparametric models."
+    }
+  ],
+
+  "teaching": [
+    {
+      "course": "Teaching experience 1",
+      "institution": "University 1, Department",
+      "date": "2014-01-01",
+      "role": "Undergraduate course",
+      "description": ""
+    },
+    {
+      "course": "Teaching experience 2",
+      "institution": "University 1, Department",
+      "date": "2015-01-01",
+      "role": "Workshop",
+      "description": ""
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Portfolio item number 1",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+    }
+  ]
+}
