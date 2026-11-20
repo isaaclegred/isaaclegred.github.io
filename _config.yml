@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-theme                    : "jekyll-theme-minimal"
+site_theme               : "default"
 title                    : "Isaac Legred"
 title_separator          : "-"
 name                     : &name "Isaac Legred"
-description              : &description "research website"
+description              : &description "Isaac Legred: postdoc at UIUC working on neutron stars, dense matter, and gravitational waves"
 url                      : "https://isaaclegred.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "isaaclegred/isaaclegred.github.io"
@@ -25,16 +25,16 @@ author:
   avatar           : "profile.png"
   name             : "Isaac Legred"
   pronouns         : # example: "he/him"  
-  bio              : "Researcher in Nuclear Astrophysics"
+  bio              : "Neutron stars, dense matter, and gravitational waves"
   location         : "Urbana, IL"
   employer         : "UIUC"
   uri              : # URL
-  email            : "ilegred2 at illinois.edu" # email address
+  email            : "ilegred2@illinois.edu" # email address (used in a mailto: link)
 
   # Academic websites
   academia         : # URL
   googlescholar    : # URL - Update with the correct link to your profile
-  arxiv            : https://arxiv.org/search/?query=isaac+legred&searchtype=all&source=header
+  arxiv            : "https://arxiv.org/search/?query=Legred%2C+Isaac&searchtype=author"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-9523-9617"
   semantic         : # URL
@@ -85,6 +85,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  theses:
+    title: 'Theses'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -92,7 +94,6 @@ breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -182,6 +183,7 @@ exclude:
   - local
   - log
   - node_modules
+  - old  # previous version of the site, kept for reference but not published
   - package.json*
   - Rakefile
   - README
@@ -319,33 +321,6 @@ whitelist:
   - jemoji
 
 
-# Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
 
 
 # HTML Compression

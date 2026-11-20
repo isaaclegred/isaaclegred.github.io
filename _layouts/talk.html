@@ -33,9 +33,9 @@ layout: default
         {% if page.modified %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i>Date:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{% assign date_fmt = page.date_format | default: '%B %Y' %}{{ page.date | date: date_fmt }}</time></p>
         {% endif %}
-        {% if page.talk_type %}<p>{{page.talk_type}} at {{ page.venue }},  {{page.location}} {% endif %}
+        {% if page.venue %}<p>{% if page.type %}{{ page.type }}, {% endif %}{{ page.venue }}{% if page.location %}, {{ page.location }}{% endif %}</p>{% endif %}
 
         </header>
       {% endunless %}

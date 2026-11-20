@@ -1,6 +1,7 @@
 ---
 title: "Neutron Stars: Robust Constraints on Dense Matter from Astrophysics"
 collection: publications
+category: theses
 permalink: /publication/2025-05-23-phd-legred
 excerpt: 'Ph.D. thesis summarizing Legred’s work using electromagnetic and gravitational-wave observations to constrain dense-matter EOS using nonparametric models.'
 date: 2025-05-23
