@@ -22,7 +22,7 @@ Education
   * Advisor: Katerina Chatziioannou
 * M.S. in Physics, California Institute of Technology, 2024
 * B.A. in Physics and Mathematics, Cornell University, 2020
-  * *Magna cum laude* in Physics and in Mathematics; Distinction in all Subjects
+  * *Magna cum laude* in Physics and in Mathematics; Distinction in All Subjects
   * Senior thesis: *Testing the No-Hair Theorem: The Precessing Case* ([code](https://github.com/isaaclegred/qnm-fitting))
 
 Honors and awards
